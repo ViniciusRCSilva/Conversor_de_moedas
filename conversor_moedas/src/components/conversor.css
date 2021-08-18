@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  transition: .2s;
+  border: none;
+  color: white;
+  background-color: #FF6900;
+  font-family: 'Georama', sans-serif;
+  font-size: 20px;
+
+}
+
+button:hover {
+  transform: scale3d(1.01, 1.01, 1.01);
+  background-color: #E85100;
+}
+
+input {
+  font-family: 'Georama', sans-serif;
+  border: none;
+  background-color: #4a4a4a;
+  color: white;
+  font-size: 20px;
+}
